@@ -156,7 +156,7 @@ def receving(name, sock):
 host = 192.168.0.106
 port = 0
 
-server = ("192.168.0.106", 4040)
+server = ("192.168.0.104", 4040)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind((host, port))
